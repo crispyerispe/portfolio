@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div className="container">
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
-          Chelsea Ersipe
+          Chelsea Erispe
         </a>
         <button
           className="navbar-toggler navbar-toggler-right"

@@ -45,7 +45,7 @@ const Portfolio = () => {
               </span>
               <h4 className="my-3">HTML</h4>
               <p className="text-muted">
-                I throughly enjoy HTML - Fornt-End really appeals to me and I
+                I whole-heartedly enjoy HTML - Fornt-End really appeals to me. I
                 think I would excel in a Front-End Career.
               </p>
             </div>
@@ -67,8 +67,8 @@ const Portfolio = () => {
               </span>
               <h4 className="my-3">JAVASCRIPT</h4>
               <p className="text-muted">
-                At times JavaScript confuses me but I am comfortable with it and
-                can do it if I put my mind to it.
+                At times JavaScript can be cryptic but I am comfortable with it
+                and I am willing and able do it if I put my mind to it.
               </p>
             </div>
             <div className="col-md-6">
@@ -204,7 +204,7 @@ const Portfolio = () => {
                 <div className="timeline-body">
                   <p className="text-muted">
                     Full Name: Chelsea Erispe <br />
-                    Date of Birth: 08/03/2000 <br />
+                    Date of Birth: 03/08/2000 <br />
                     Gender: Female <br />
                     Location: Rondebosch East <br />
                     Nationality: South African <br />
