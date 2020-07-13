@@ -2,9 +2,9 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav className="navbar navbar-expand-lg fixed-top" id="mainNav">
       <div className="container">
-        <a className="navbar-brand js-scroll-trigger" href="#page-top">
+        <a className="navbar-brand js-scroll-trigger" href="#pageTop">
           Chelsea Erispe
         </a>
         <button

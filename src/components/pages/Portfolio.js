@@ -13,7 +13,7 @@ import Me from "../../images/me.jpeg";
 const Portfolio = () => {
   return (
     <Fragment>
-      <header className="masthead">
+      <header className="masthead" id="pageTop">
         <div className="container">
           <div className="masthead-subheading">
             Welcome To My Portfolio! <br />
@@ -26,6 +26,13 @@ const Portfolio = () => {
             href="#skillset"
           >
             Hop Right Into It
+          </a>
+          <a
+            className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+            data-toggle="modal"
+            href="#myModal"
+          >
+            More Information
           </a>
         </div>
       </header>
@@ -41,7 +48,9 @@ const Portfolio = () => {
             <div className="col-md-4">
               <span className="fa-stack fa-5x">
                 <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-stack-1x fa-inverse">90%</i>
+                <i className="fas fa-stack-1x fa-inverse">
+                  <div className="rating">90%</div>
+                </i>
               </span>
               <h4 className="my-3">HTML</h4>
               <p className="text-muted">
@@ -52,7 +61,9 @@ const Portfolio = () => {
             <div className="col-md-4">
               <span className="fa-stack fa-5x">
                 <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-stack-1x fa-inverse">70%</i>
+                <i className="fas fa-stack-1x fa-inverse">
+                  <div className="rating">70%</div>
+                </i>
               </span>
               <h4 className="my-3">PYTHON</h4>
               <p className="text-muted">
@@ -63,7 +74,9 @@ const Portfolio = () => {
             <div className="col-md-4">
               <span className="fa-stack fa-5x">
                 <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-stack-1x fa-inverse">75%</i>
+                <i className="fas fa-stack-1x fa-inverse">
+                  <div className="rating">75%</div>
+                </i>
               </span>
               <h4 className="my-3">JAVASCRIPT</h4>
               <p className="text-muted">
@@ -74,7 +87,9 @@ const Portfolio = () => {
             <div className="col-md-6">
               <span className="fa-stack fa-5x">
                 <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-stack-1x fa-inverse">60%</i>
+                <i className="fas fa-stack-1x fa-inverse">
+                  <div className="rating">60%</div>
+                </i>
               </span>
               <h4 className="my-3">MYSQL</h4>
               <p className="text-muted">
@@ -86,7 +101,9 @@ const Portfolio = () => {
             <div className="col-md-6">
               <span className="fa-stack fa-5x">
                 <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-stack-1x fa-inverse">85%</i>
+                <i className="fas fa-stack-1x fa-inverse">
+                  <div className="rating">85%</div>
+                </i>
               </span>
               <h4 className="my-3">REACT</h4>
               <p className="text-muted">
@@ -439,7 +456,7 @@ const Portfolio = () => {
           <form
             id="contactForm"
             name="sentMessage"
-            novalidate="novalidate"
+            noValidate="noValidate"
             action="https://formspree.io/mgennynj"
             method="POST"
           >
@@ -510,68 +527,7 @@ const Portfolio = () => {
       {/* Footer */}
       <footer className="footer py-4">
         <div className="container">
-          <div className="row align-items-center">
-            <button
-              type="button"
-              className="btn btn-primary"
-              data-toggle="modal"
-              data-target="#myModal"
-            >
-              More Information
-            </button>
-
-            <div
-              className="portfolio-modal modal fade"
-              id="myModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModal"
-              aria-hidden="true"
-            >
-              <div className="modal-dialog">
-                <div className="modal-content">
-                  <div className="close-modal" data-dismiss="modal">
-                    <i className="fas fa-times" alt="Close modal" />
-                  </div>
-                  <div className="container">
-                    <div className="row justify-content-center">
-                      <div className="col-lg-8">
-                        <div className="modal-body">
-                          <h2 className="text-uppercase">
-                            Get In Touch With Me
-                          </h2>
-                          <p className="item-intro text-muted">
-                            I hope you enjoyed getting to know me and I hope you
-                            see you in the future!
-                          </p>
-                          <img
-                            className="img-fluid d-block mx-auto"
-                            src={Me}
-                            alt=""
-                          />
-                        </div>
-                        <ul className="list-inline">
-                          <li>Phone: 084 860 4537</li>
-                          <li>Email: chelseaerispe3@gmail.com</li>
-                          <a href="https://github.com/crispyerispe">
-                            Check out my Github Page
-                          </a>
-                        </ul>
-                        <button
-                          className="btn btn-primary"
-                          data-dismiss="modal"
-                          type="button"
-                        >
-                          <i className="fas fa-times mr-1"></i>
-                          Close
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div className="row align-items-center">Made By Chelsea Erispe</div>
         </div>
       </footer>
       {/* Portfolio Modals */
@@ -579,7 +535,7 @@ const Portfolio = () => {
       <div
         className="portfolio-modal modal fade"
         id="portfolioModal1"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-hidden="true"
       >
@@ -634,7 +590,7 @@ const Portfolio = () => {
       <div
         className="portfolio-modal modal fade"
         id="portfolioModal2"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-hidden="true"
       >
@@ -688,7 +644,7 @@ const Portfolio = () => {
       <div
         className="portfolio-modal modal fade"
         id="portfolioModal3"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-hidden="true"
       >
@@ -732,6 +688,56 @@ const Portfolio = () => {
                       Close Project
                     </button>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* More Information Modal */}
+      <div
+        className="portfolio-modal modal fade"
+        id="myModal"
+        tabIndex="-1"
+        role="dialog"
+        aria-labelledby="myModal"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="close-modal" data-dismiss="modal">
+              <i className="fas fa-times" alt="Close modal" />
+            </div>
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-8">
+                  <div className="modal-body">
+                    <h2 className="text-uppercase">Get In Touch With Me</h2>
+                    <p className="item-intro text-muted">
+                      I hope you enjoyed getting to know me and I hope you see
+                      you in the future!
+                    </p>
+                    <img
+                      className="img-fluid d-block mx-auto"
+                      src={Me}
+                      alt=""
+                    />
+                  </div>
+                  <ul className="list-inline">
+                    <li>Phone: 084 860 4537</li>
+                    <li>Email: chelseaerispe3@gmail.com</li>
+                    <a href="https://github.com/crispyerispe">
+                      Check out my Github Page
+                    </a>
+                  </ul>
+                  <button
+                    className="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i className="fas fa-times mr-1"></i>
+                    Close
+                  </button>
                 </div>
               </div>
             </div>
