@@ -29,6 +29,18 @@
     "Liberation Mono", "Courier New", monospace;
 }
 
+header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("./images/me.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
 *,
 *::before,
 *::after {
@@ -5170,11 +5182,13 @@ a.text-primary:focus {
 
 a.text-danger:hover,
 a.text-danger:focus {
-  color: #e6b301 !important;
+  color: #dc3545 !important;
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #6c757d;
+  padding-top: 10px;
+  padding-left: 5px;
 }
 .visible {
   visibility: visible !important;
@@ -5237,6 +5251,12 @@ p {
 .page-section {
   padding: 6rem 0;
 }
+
+.page-section .container .image {
+  height: 250px;
+  padding-bottom: 2rem;
+}
+
 .page-section h2.section-heading {
   font-size: 2.5rem;
   margin-top: 0;
@@ -5249,7 +5269,7 @@ p {
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -5374,17 +5394,6 @@ img::-moz-selection {
     margin-right: 0;
   }
 }
-header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("./images/header.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-}
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -5429,6 +5438,11 @@ header.masthead .masthead-heading {
   margin-left: auto;
   margin-right: auto;
 }
+
+#portfolio .portfolio-item a {
+  text-decoration: none;
+}
+
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
@@ -5694,6 +5708,7 @@ header.masthead .masthead-heading {
   width: 14rem;
   height: 14rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 .team-member h4 {
   margin-top: 1.5rem;
@@ -5709,6 +5724,10 @@ section#contact {
 }
 section#contact .section-heading {
   color: #fff;
+}
+
+section#contact .section-subheading .text-muted h3 {
+  color: var(--primary);
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
@@ -5769,4 +5788,15 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.con-container {
+  background-color: #fff;
+  padding-top: 5px;
+  border-radius: h35px;
+}
+
+.con-container .fas {
+  color: #6c757d;
+  padding-left: 10px;
 }

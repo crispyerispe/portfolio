@@ -19,20 +19,13 @@ const Portfolio = () => {
             Welcome To My Portfolio! <br />
           </div>
           <div className="masthead-heading text-uppercase">
-            It's Great To Have You Here <br />I am Chelsea Erispe
+            It's Great To Have You Here
           </div>
           <a
             className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
             href="#skillset"
           >
             Hop Right Into It
-          </a>
-          <a
-            className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-            data-toggle="modal"
-            href="#myModal"
-          >
-            More Information
           </a>
         </div>
       </header>
@@ -41,7 +34,7 @@ const Portfolio = () => {
           <div className="text-center">
             <h2 className="section-heading text-uppercase">Skillset</h2>
             <h3 className="section-subheading text-muted">
-              Rating Of Skills Aquired
+              Rating Of Skills Acquired
             </h3>
           </div>
           <div className="row text-center">
@@ -54,7 +47,7 @@ const Portfolio = () => {
               </span>
               <h4 className="my-3">HTML</h4>
               <p className="text-muted">
-                I whole-heartedly enjoy HTML - Fornt-End really appeals to me. I
+                I whole-heartedly enjoy HTML - Forntend really appeals to me. I
                 think I would excel in a Front-End Career.
               </p>
             </div>
@@ -67,8 +60,8 @@ const Portfolio = () => {
               </span>
               <h4 className="my-3">PYTHON</h4>
               <p className="text-muted">
-                I am capable of doing Python although Back-End is not my passion
-                and strong suit.
+                I am capable of doing Python although I could do with more
+                practice and exposure. Overall I am comfortable with it.
               </p>
             </div>
             <div className="col-md-4">
@@ -80,8 +73,9 @@ const Portfolio = () => {
               </span>
               <h4 className="my-3">JAVASCRIPT</h4>
               <p className="text-muted">
-                At times JavaScript can be cryptic but I am comfortable with it
-                and I am willing and able do it if I put my mind to it.
+                At times JavaScript can be cryptic but I am more than
+                comfortable with it and I am willing and able do it if I put my
+                mind to it.
               </p>
             </div>
             <div className="col-md-6">
@@ -94,8 +88,8 @@ const Portfolio = () => {
               <h4 className="my-3">MYSQL</h4>
               <p className="text-muted">
                 MYSQL and I have a love-hate relationship. One day I like it and
-                the next I don't. I'm sure with more exposure to I could come to
-                like it and become more comfortable with it.
+                the next I don't. With more practice and exposure I am certain I
+                can come to love it and excel in it.
               </p>
             </div>
             <div className="col-md-6">
@@ -133,18 +127,18 @@ const Portfolio = () => {
                   href="#portfolioModal1"
                 >
                   <div className="portfolio-hover">
-                    <div className="portfolio-hover-content">
-                      <i className="fas fa-plus fa-3x"></i>
-                    </div>
+                    <div className="portfolio-hover-content"></div>
                   </div>
                   <img className="img-fluid" src={Project_1} alt="" />
-                </a>
-                <div className="portfolio-caption">
-                  <div className="portfolio-caption-heading">Github Finder</div>
-                  <div className="portfolio-caption-subheading text-muted">
-                    First React Project
+                  <div className="portfolio-caption">
+                    <div className="portfolio-caption-heading">
+                      Github Finder
+                    </div>
+                    <div className="portfolio-caption-subheading text-muted">
+                      First React Project
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-4">
@@ -155,20 +149,19 @@ const Portfolio = () => {
                   href="#portfolioModal2"
                 >
                   <div className="portfolio-hover">
-                    <div className="portfolio-hover-content">
-                      <i className="fas fa-plus fa-3x"></i>
-                    </div>
+                    <div className="portfolio-hover-content"></div>
                   </div>
                   <img className="img-fluid" src={Project_2} alt="" />
+
+                  <div className="portfolio-caption">
+                    <div className="portfolio-caption-heading">
+                      Contact Keeper
+                    </div>
+                    <div className="portfolio-caption-subheading text-muted">
+                      Second React Project
+                    </div>
+                  </div>
                 </a>
-                <div className="portfolio-caption">
-                  <div className="portfolio-caption-heading">
-                    Contact Kepper
-                  </div>
-                  <div className="portfolio-caption-subheading text-muted">
-                    Second React Project
-                  </div>
-                </div>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-4">
@@ -179,18 +172,17 @@ const Portfolio = () => {
                   href="#portfolioModal3"
                 >
                   <div className="portfolio-hover">
-                    <div className="portfolio-hover-content">
-                      <i className="fas fa-plus fa-3x"></i>
-                    </div>
+                    <div className="portfolio-hover-content"></div>
                   </div>
                   <img className="img-fluid" src={Project_3} alt="" />
-                </a>
-                <div className="portfolio-caption">
-                  <div className="portfolio-caption-heading">I.T Logger</div>
-                  <div className="portfolio-caption-subheading text-muted">
-                    Third React Project
+
+                  <div className="portfolio-caption">
+                    <div className="portfolio-caption-heading">I.T Logger</div>
+                    <div className="portfolio-caption-subheading text-muted">
+                      Third React Project
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -211,7 +203,7 @@ const Portfolio = () => {
           <ul className="timeline">
             <li>
               <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src="" alt="" />
+                <img className="rounded-circle" src="" alt="" />
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
@@ -249,7 +241,7 @@ const Portfolio = () => {
                         Exploring, going on adventures and going on road trips
                       </li>
                       <li>Spending time with my family and friends</li>
-                      <li>Playing games (I'm quite competetive)</li>
+                      <li>Playing games (I'm quite competitive)</li>
                       <li>Cooking</li>
                     </ul>
                   </p>
@@ -268,7 +260,7 @@ const Portfolio = () => {
                 <div className="timeline-body">
                   <p className="text-muted">
                     I attended Groote Schuur High School in Newlands. I
-                    throughly enjoyed school and made the most of the time I
+                    thoroughly enjoyed school and made the most of the time I
                     spent there
                   </p>
                 </div>
@@ -285,8 +277,10 @@ const Portfolio = () => {
                 </div>
                 <div className="timeline-body">
                   <p className="text-muted">
-                    Company: Perfect Solutions Period: 2016 - present Role:
-                    Brand Ambassador (promotional work) Duties: <br />
+                    Company: Perfect Solutions <br />
+                    Period: 2016 - present <br />
+                    Role: Brand Ambassador (promotional) <br />
+                    Duties: <br />
                     <ul>
                       <li>Promote Products</li>
                       <li>Increase Sales</li>
@@ -389,12 +383,12 @@ const Portfolio = () => {
                 <p className="text-muted">Fellow Peer</p>
 
                 <p>
-                  The biggest breakthrough that i have achieved working with
+                  The biggest breakthrough that I have achieved working with
                   Chelsea Erispe was that she could always keep her team mates
                   focused on the end goal. I liked most working with her because
                   of her quick thinking skills which helps maintain a steady
                   pace. I would recommend anyone to work with Chelsea. She is
-                  focused, determined ans empowering. She definitely brings the
+                  focused, determined and empowering. She definitely brings the
                   best out of you.
                 </p>
               </div>
@@ -426,7 +420,7 @@ const Portfolio = () => {
 
                 <p>
                   Chelsea is someone enjoys a challenge, works well in a group
-                  and gives her best. She i mature and principled, capable of
+                  and gives her best. She is mature and principled, capable of
                   acting independently and taking initiative. When she works she
                   shows self-motivation, perserverance and a great work ethic.
                   Her work is always well-presented and executes it in a timely
@@ -450,16 +444,10 @@ const Portfolio = () => {
           <div className="text-center">
             <h2 className="section-heading text-uppercase">Contact Me</h2>
             <h3 className="section-subheading text-muted">
-              Get Intouch With Me!
+              Get In Touch With Me!
             </h3>
           </div>
-          <form
-            id="contactForm"
-            name="sentMessage"
-            noValidate="noValidate"
-            action="https://formspree.io/mgennynj"
-            method="POST"
-          >
+          <form action="https://formspree.io/mgennynj" method="POST">
             <div className="row align-items-stretch mb-5">
               <div className="col-md-6">
                 <div className="form-group">
@@ -467,7 +455,7 @@ const Portfolio = () => {
                     className="form-control"
                     id="name"
                     type="text"
-                    name="_replyto"
+                    name="name"
                     placeholder="Full Name"
                     required="required"
                     data-validation-required-message="Please enter your name."
@@ -479,7 +467,7 @@ const Portfolio = () => {
                     className="form-control"
                     id="email"
                     type="email"
-                    name="message"
+                    name="_replyto"
                     placeholder="Email Address"
                     required="required"
                     data-validation-required-message="Please enter your email address."
@@ -504,18 +492,26 @@ const Portfolio = () => {
                     className="form-control"
                     id="message"
                     placeholder="Your Message"
+                    name="message"
                     required="required"
                     data-validation-required-message="Please enter a message."
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
+                <div className="con-container mb-md-0">
+                <i class="fas fa-envelope">
+                  <p> chelseaerispe3@gmail.com</p>
+                </i>
+                <i class="fas fa-phone">
+                  <p>084 860 4537</p>
+                </i>
+              </div>
               </div>
             </div>
             <div className="text-center">
               <div id="success"></div>
               <button
                 className="btn btn-primary btn-xl text-uppercase"
-                id="sendMessageButton"
                 type="submit"
               >
                 Send Message
@@ -566,9 +562,16 @@ const Portfolio = () => {
                     <ul className="list-inline">
                       <li>Date: June 2020</li>
                       <li>
-                        <a href="https://github.com/crispyerispe/Git-hub-Finder">
-                          Take a closer look
-                        </a>
+                        <button className="btn btn-primary">
+                          <a href="https://github.com/crispyerispe/Git-hub-Finder"></a>
+                          Github Repo
+                        </button>
+                      </li>
+                      <li>
+                        <button className="btn btn-primary">
+                          <a href="https://the-github-finder-ce.netlify.app/"></a>
+                          Live Project
+                        </button>
                       </li>
                     </ul>
                     <button
@@ -620,9 +623,16 @@ const Portfolio = () => {
                     <ul className="list-inline">
                       <li>Date: June 2020</li>
                       <li>
-                        <a href="https://github.com/crispyerispe/Contact-Keeper">
-                          Take a closer look
-                        </a>
+                        <button className="btn btn-primary">
+                          <a href="https://github.com/crispyerispe/The-Contact-Keeper"></a>
+                          Github Repo
+                        </button>
+                      </li>
+                      <li>
+                        <button className="btn btn-primary">
+                          <a href="http://localhost:3000/login"></a>
+                          Live Project
+                        </button>
                       </li>
                     </ul>
                     <button
@@ -674,11 +684,19 @@ const Portfolio = () => {
                     <ul className="list-inline">
                       <li>Date: June-July 2020</li>
                       <li>
-                        <a href="https://github.com/crispyerispe/IT-Logger">
-                          Take a closer look
-                        </a>
+                        <button className="btn btn-primary">
+                          <a href="https://github.com/crispyerispe/IT-Logger"></a>
+                          Github Repo
+                        </button>
+                        <li>
+                          <button className="btn btn-primary">
+                            <a href="https://it-logger-ce.netlify.app/"></a>
+                            Live Project
+                          </button>
+                        </li>
                       </li>
                     </ul>
+
                     <button
                       className="btn btn-primary"
                       data-dismiss="modal"
@@ -688,56 +706,6 @@ const Portfolio = () => {
                       Close Project
                     </button>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* More Information Modal */}
-      <div
-        className="portfolio-modal modal fade"
-        id="myModal"
-        tabIndex="-1"
-        role="dialog"
-        aria-labelledby="myModal"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog">
-          <div className="modal-content">
-            <div className="close-modal" data-dismiss="modal">
-              <i className="fas fa-times" alt="Close modal" />
-            </div>
-            <div className="container">
-              <div className="row justify-content-center">
-                <div className="col-lg-8">
-                  <div className="modal-body">
-                    <h2 className="text-uppercase">Get In Touch With Me</h2>
-                    <p className="item-intro text-muted">
-                      I hope you enjoyed getting to know me and I hope you see
-                      you in the future!
-                    </p>
-                    <img
-                      className="img-fluid d-block mx-auto"
-                      src={Me}
-                      alt=""
-                    />
-                  </div>
-                  <ul className="list-inline">
-                    <li>Phone: 084 860 4537</li>
-                    <li>Email: chelseaerispe3@gmail.com</li>
-                    <a href="https://github.com/crispyerispe">
-                      Check out my Github Page
-                    </a>
-                  </ul>
-                  <button
-                    className="btn btn-primary"
-                    data-dismiss="modal"
-                    type="button"
-                  >
-                    <i className="fas fa-times mr-1"></i>
-                    Close
-                  </button>
                 </div>
               </div>
             </div>
