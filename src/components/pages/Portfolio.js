@@ -8,7 +8,6 @@ import Pic_3 from "../../images/luqie.jpeg";
 import Pic_4 from "../../images/jaabs.jpeg";
 import Pic_5 from "../../images/joshua.jpg";
 import Pic_6 from "../../images/tyla.jpeg";
-import Me from "../../images/me.jpeg";
 
 const Portfolio = () => {
   return (
@@ -499,13 +498,13 @@ const Portfolio = () => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div className="con-container mb-md-0">
-                <i class="fas fa-envelope">
-                  <p> chelseaerispe3@gmail.com</p>
-                </i>
-                <i class="fas fa-phone">
-                  <p>084 860 4537</p>
-                </i>
-              </div>
+                  <i class="fas fa-envelope">
+                    <p> chelseaerispe3@gmail.com</p>
+                  </i>
+                  <i class="fas fa-phone">
+                    <p>084 860 4537</p>
+                  </i>
+                </div>
               </div>
             </div>
             <div className="text-center">
@@ -563,14 +562,16 @@ const Portfolio = () => {
                       <li>Date: June 2020</li>
                       <li>
                         <button className="btn btn-primary">
-                          <a href="https://github.com/crispyerispe/Git-hub-Finder"></a>
-                          Github Repo
+                          <a href="https://github.com/crispyerispe/Git-hub-Finder">
+                            Github Repo
+                          </a>
                         </button>
                       </li>
                       <li>
                         <button className="btn btn-primary">
-                          <a href="https://the-github-finder-ce.netlify.app/"></a>
-                          Live Project
+                          <a href="https://the-github-finder-ce.netlify.app/">
+                            Live Project
+                          </a>
                         </button>
                       </li>
                     </ul>
@@ -624,14 +625,14 @@ const Portfolio = () => {
                       <li>Date: June 2020</li>
                       <li>
                         <button className="btn btn-primary">
-                          <a href="https://github.com/crispyerispe/The-Contact-Keeper"></a>
-                          Github Repo
+                          <a href="https://github.com/crispyerispe/The-Contact-Keeper">
+                            Github Repo
+                          </a>
                         </button>
                       </li>
                       <li>
                         <button className="btn btn-primary">
-                          <a href="http://localhost:3000/login"></a>
-                          Live Project
+                          <a href="http://localhost:3000/login">Live Project</a>
                         </button>
                       </li>
                     </ul>
@@ -685,13 +686,15 @@ const Portfolio = () => {
                       <li>Date: June-July 2020</li>
                       <li>
                         <button className="btn btn-primary">
-                          <a href="https://github.com/crispyerispe/IT-Logger"></a>
-                          Github Repo
+                          <a href="https://github.com/crispyerispe/IT-Logger">
+                            Github Repo
+                          </a>
                         </button>
                         <li>
                           <button className="btn btn-primary">
-                            <a href="https://it-logger-ce.netlify.app/"></a>
-                            Live Project
+                            <a href="https://it-logger-ce.netlify.app/">
+                              Live Project
+                            </a>
                           </button>
                         </li>
                       </li>
