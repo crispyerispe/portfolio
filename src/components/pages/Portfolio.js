@@ -521,10 +521,12 @@ const Portfolio = () => {
                 </div>
                 <div className="con-container mb-md-0">
                   <i class="fas fa-envelope">
-                    <p> chelseaerispe3@gmail.com</p>
+                    <a href="mailto:chelseaerispe3@gmail.com">
+                      chelseaerispe3@gmail.com
+                    </a>
                   </i>
                   <i class="fas fa-phone">
-                    <p>084 860 4537</p>
+                    <a href="tel:084 860 4537">084 860 4537</a>
                   </i>
                 </div>
               </div>
