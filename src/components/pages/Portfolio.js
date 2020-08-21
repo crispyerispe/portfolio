@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Project_1 from "../../images/proj_1.png";
 import Project_2 from "../../images/proj_2.png";
 import Project_3 from "../../images/proj_3.png";
+import Project_4 from "../../images/proj_4.png";
 import Pic_1 from "../../images/zoe.jpeg";
 import Pic_2 from "../../images/jason.jpeg";
 import Pic_3 from "../../images/luqie.jpeg";
@@ -118,7 +119,7 @@ const Portfolio = () => {
             </h3>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-sm-6 mb-4">
+            <div className="col-lg-6 col-sm-6 mb-4">
               <div className="portfolio-item">
                 <a
                   className="portfolio-link"
@@ -140,7 +141,7 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 mb-4">
+            <div className="col-lg-6 col-sm-6 mb-4">
               <div className="portfolio-item">
                 <a
                   className="portfolio-link"
@@ -163,7 +164,7 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 mb-4">
+            <div className="col-lg-6 col-sm-6 mb-4">
               <div className="portfolio-item">
                 <a
                   className="portfolio-link"
@@ -179,6 +180,27 @@ const Portfolio = () => {
                     <div className="portfolio-caption-heading">I.T Logger</div>
                     <div className="portfolio-caption-subheading text-muted">
                       Third React Project
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6 col-sm-6 mb-4">
+              <div className="portfolio-item">
+                <a
+                  className="portfolio-link"
+                  data-toggle="modal"
+                  href="#portfolioModal4"
+                >
+                  <div className="portfolio-hover">
+                    <div className="portfolio-hover-content"></div>
+                  </div>
+                  <img className="img-fluid" src={Project_4} alt="" />
+
+                  <div className="portfolio-caption">
+                    <div className="portfolio-caption-heading">Mom's Blog</div>
+                    <div className="portfolio-caption-subheading text-muted">
+                      Fourth React Project
                     </div>
                   </div>
                 </a>
@@ -700,6 +722,71 @@ const Portfolio = () => {
                       </li>
                     </ul>
 
+                    <button
+                      className="btn btn-primary"
+                      data-dismiss="modal"
+                      type="button"
+                    >
+                      <i className="fas fa-times mr-1"></i>
+                      Close Project
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Modal 4 */}
+      <div
+        className="portfolio-modal modal fade"
+        id="portfolioModal4"
+        tabIndex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="close-modal" data-dismiss="modal">
+              <i className="fas fa-times" alt="Close modal" />
+            </div>
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-8">
+                  <div className="modal-body">
+                    {/* Project Details Go Here */}
+                    <h2 className="text-uppercase">The Mom Blog</h2>
+                    <p className="item-intro text-muted">
+                      A Personal Blog About Navigating Through Motherhood
+                    </p>
+                    <img
+                      className="img-fluid d-block mx-auto"
+                      src={Project_4}
+                      alt=""
+                    />
+                    <p>
+                      This is a blog created for mothers but not limited to
+                      them. At Mom's Blog our aim is provide a space where Moms
+                      can come to for adivce, to vent, to relax and lastly but
+                      most importantly CONNECT.
+                    </p>
+                    <ul className="list-inline">
+                      <li>Date: June 2020</li>
+                      <li>
+                        <button className="btn btn-primary">
+                          <a href="https://github.com/crispyerispe/The-Mom-Blog">
+                            Github Repo
+                          </a>
+                        </button>
+                      </li>
+                      <li>
+                        <button className="btn btn-primary">
+                          <a href="https://mommy-blog-ce.herokuapp.com/">
+                            Live Project
+                          </a>
+                        </button>
+                      </li>
+                    </ul>
                     <button
                       className="btn btn-primary"
                       data-dismiss="modal"
